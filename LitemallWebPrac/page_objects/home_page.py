@@ -19,5 +19,5 @@ class HomePage(BasePage):
         # 点击"商品上架"菜单
         self.do_click(*self._MENU_PRODUCT_LAUNCH)
 
-        from page_objects.product_launch_page import ProductLaunchPage
+        from LitemallWebPrac.page_objects.product_launch_page import ProductLaunchPage
         return ProductLaunchPage(self.driver)
