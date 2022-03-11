@@ -17,7 +17,7 @@ class BasePage:
 
         if driver is None:
             # 初始化浏览器
-            self.driver = webdriver.Chrome()
+            self.driver = webdriver.Chrome(executable_path="/Users/xiaofo/AppData/chromedriver")
             self.driver.implicitly_wait(5)
             self.driver.maximize_window()
 
