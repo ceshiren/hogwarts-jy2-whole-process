@@ -5,6 +5,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
+import os
+from selenium.webdriver.chrome.options import Options
+
 """
 父类
 """
@@ -16,8 +19,19 @@ class BasePage:
     def __init__(self, driver:WebDriver = None):
 
         if driver is None:
+            # 无界面运行
+            try:
+                using_headless = os.environ["using_headless"]
+            except KeyError:
+                using_headless = None
+
+            chrome_options = Options()
+            if using_headless is not None and using_headless.lower() == 'true':
+                print("无界面运行")
+                chrome_options.add_argument("--headless")
+
             # 初始化浏览器
-            self.driver = webdriver.Chrome(executable_path="/Users/xiaofo/AppData/chromedriver")
+            self.driver = webdriver.Chrome(executable_path="/Users/xiaofo/AppData/chromedriver", options=chrome_options)
             self.driver.implicitly_wait(5)
             self.driver.maximize_window()
 
