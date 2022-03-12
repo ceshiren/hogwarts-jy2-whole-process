@@ -4,7 +4,7 @@
 import jsonpath
 
 from LitemallApiPrac.api_objects.litemall import Litemall
-from LitemallApiPrac.utils import logger
+
 
 
 class GoodsApi(Litemall):
@@ -12,7 +12,7 @@ class GoodsApi(Litemall):
     # 上架商品
     def create(self, goods_sn: str, goods_name: str):
 
-        logger.info(f"商品编号：{goods_sn}, 商品名称：{goods_name}")
+        # logger.info(f"商品编号：{goods_sn}, 商品名称：{goods_name}")
 
         info = {
             "url": f"{self.base_url}/admin/goods/create",
@@ -63,7 +63,7 @@ class GoodsApi(Litemall):
         }
 
         r = self.do_request(info)
-        logger.info(r.json())
+        # logger.info(r.json())
         return r
 
     # 查询商品

@@ -1,0 +1,21 @@
+2022-03-12 17:38:45,470 root INFO logger:33 商品编号：111111, 商品名称：查询专用
+2022-03-12 17:38:45,585 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,585 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,585 root INFO logger:33 商品编号：222222, 商品名称：删除专用
+2022-03-12 17:38:45,585 root INFO logger:33 商品编号：222222, 商品名称：删除专用
+2022-03-12 17:38:45,585 root INFO logger:33 商品编号：222222, 商品名称：删除专用
+2022-03-12 17:38:45,725 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,725 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,725 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,725 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,725 root INFO logger:33 商品编号：111111, 商品名称：上架专用
+2022-03-12 17:38:45,725 root INFO logger:33 商品编号：111111, 商品名称：上架专用
+2022-03-12 17:38:45,725 root INFO logger:33 商品编号：111111, 商品名称：上架专用
+2022-03-12 17:38:45,725 root INFO logger:33 商品编号：111111, 商品名称：上架专用
+2022-03-12 17:38:45,725 root INFO logger:33 商品编号：111111, 商品名称：上架专用
+2022-03-12 17:38:45,835 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,835 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,835 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,835 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,835 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
+2022-03-12 17:38:45,835 root INFO logger:33 {'errno': 0, 'errmsg': '成功'}
