@@ -32,7 +32,7 @@ class BasePage:
 
             # 初始化浏览器
             self.driver = webdriver.Chrome(executable_path="/Users/xiaofo/AppData/chromedriver", options=chrome_options)
-            self.driver.implicitly_wait(5)
+            self.driver.implicitly_wait(15)
             self.driver.maximize_window()
 
             self.driver.get(self._BASE_URL)
