@@ -4,7 +4,7 @@
 from selenium.webdriver.common.by import By
 
 from LitemallWebPrac.page_objects.base_page import BasePage
-
+import time
 
 class HomePage(BasePage):
 
@@ -13,6 +13,7 @@ class HomePage(BasePage):
 
     # 点击菜单
     def got_go_product_launch(self):
+        time.sleep(2)
         # 点击"商品管理"菜单
         self.do_click(*self._MENU_PRODUCT_MANAGE)
 
